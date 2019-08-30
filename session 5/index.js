@@ -47,38 +47,47 @@
 //     console.log(teencode);
 // }
 
-const bangluong =[
-    {
-    name :"Nam" ,
-    Role :"boiban",
-    Hours : 10,
-    $hours :5
-    },
-{
-    name : "Duc",
-    Role : "trongxe",
-    Hours : 15,
-    $hours :3
-}
-]
-const form ={
-    name: prompt("nhap ten nhan vien"),
-    Role: prompt("nhap chuc vu"),
-    Hours: prompt("nhap gio lam"),
-    $hours: prompt("nhap he so luong")
+// const bangluong =[
+//     {
+//     name :"Nam" ,
+//     Role :"boiban",
+//     Hours : 10,
+//     $hours :5
+//     },
+// {
+//     name : "Duc",
+//     Role : "trongxe",
+//     Hours : 15,
+//     $hours :3
+// }
+// ]
+// const form ={
+//     name: prompt("nhap ten nhan vien"),
+//     Role: prompt("nhap chuc vu"),
+//     Hours: prompt("nhap gio lam"),
+//     $hours: prompt("nhap he so luong")
+
+// }
+// bangluong.push[form];
+// let havetoPay = 0
+// for(let i=0 ; i<bangluong.length; i++){
+//     console.log(`${i+1} ${bangluong[i].name} ${bangluong[i].Role} ${bangluong[i].Hours} ${bangluong[i].$hours}`);
+//     let total = (`${bangluong[i].hours} * ${bangluong[i].$hours}`) *30;
+//     havetoPay += total
+//     console.log(`luong 1 thang ${total}`);
+//     console.log("~~~~~~~~~~~~~~");
+// }
+// console.log(`So tien nha hang phai tra ${havetoPay}`);
+// console.log(bangluong);
+
+const tracnghiem ={
+    question:"Nhen co may chan",
+    choose :["2 chan","3 chan","4 chan","6 chan"],
+    corect : 3
 
 }
-bangluong.push[form];
-let havetoPay = 0
-for(let i=0 ; i<bangluong.length; i++){
-    console.log(`${i+1} ${bangluong[i].name} ${bangluong[i].Role} ${bangluong[i].Hours} ${bangluong[i].$hours}`);
-    let total = (`${bangluong[i].hours} * ${bangluong[i].$hours}`) *30;
-    havetoPay += total
-    console.log(`luong 1 thang ${total}`);
-    console.log("~~~~~~~~~~~~~~");
-}
-console.log(`So tien nha hang phai tra ${havetoPay}`);
-console.log(bangluong);
+
+
 
 
 

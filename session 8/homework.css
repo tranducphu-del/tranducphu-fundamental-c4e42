@@ -1,0 +1,168 @@
+#hello{
+    color: red;
+}
+
+#hi{
+    color: red;
+}
+
+#doctor{
+    color: green;
+}
+
+#xinchao{
+    color: blue;
+}
+
+#doimauchubatki{
+    color: blue;
+    background-color: pink;
+}
+
+#choragiua{
+    color:blue;
+    background-color: pink;
+    text-align: center;
+}
+
+#chuyenthanhchuinhoa{
+    color:blue;
+    background-color:pink;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+#cochu30px{
+    color:blue;
+    background-color:pink;
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: 30px;
+}
+
+#chuindam{
+    color:blue;
+    background-color:pink;
+    text-align: center;
+    text-transform: uppercase; 
+    font-size:30px;
+    font-weight: bold;
+}
+
+#display{
+    background-color: red;
+    text-align: left;
+    display:inline-block
+}
+
+#span1{
+    background: red;
+    display: inline-block;
+    text-align: left;
+}
+
+#span2{
+    background-color: yellow;
+    display: inline-table;
+    width: 500px;
+}
+
+#span3{
+    background-color: red;
+    display:block;
+}
+#div1{
+    background-color: blue;
+
+}
+
+#div2{
+    width: 200px;
+  height:200px;
+  background:wheat;
+  font-size:30px;
+  text-align:center;
+  line-height:200px;
+  border: 3px solid black;
+}
+
+#div3{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    border: 3px solid blue;
+}
+
+#div4{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    border: 3px solid blue;
+    border-radius: 15px;
+}
+
+#div5{
+    background: wheat;
+  width:400px;
+  border: 2px solid green;
+  padding-left: 40px;
+}
+
+#div6{
+    background: wheat;
+  width:400px;
+  border: 2px solid green;
+  padding-right: 40px;
+}
+
+#div7{
+    background: wheat;
+  width:400px;
+  border: 2px solid green;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+
+#a >div {
+    background:wheat;
+    margin-left: 40px;
+}
+
+#a{
+    border:1px solid black
+  }
+
+#a1 >div {
+    background:wheat;
+    margin-right: 60px;
+}
+
+#a1{
+    border:1px solid black
+  }
+
+#a2 >div {
+    background:wheat;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+#a2{
+    border:1px solid black
+  }
+
+  #a3 >div {
+    background:wheat;
+    margin: 50px 60px 50px 40px;
+}
+
+#a3{
+    border:1px solid black
+  }
+
